@@ -1,6 +1,6 @@
 # Optional dependencies for live model execution
-presidio-analyzer>=2.2.350
-spacy>=3.7.0
-gliner>=0.1.12
-llm-guard>=0.3.0
-pai-thin-client>=2.0.0
+# presidio-analyzer>=2.2.350
+# spacy>=3.7.0
+# gliner>=0.1.12
+# llm-guard>=0.3.0
+# pai-thin-client>=2.0.0
