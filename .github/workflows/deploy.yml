@@ -56,6 +56,7 @@ jobs:
           mkdir -p dist
           python generate_report.py --input benchmark_results.json --output-dir dist
           cp benchmark_results.json dist/
+          touch dist/.nojekyll
 
       - name: Setup GitHub Pages
         if: github.ref == 'refs/heads/main'
