@@ -1239,7 +1239,7 @@ def generate_specimens_inspector_html(scores: List[BenchmarkEvaluationScore], sp
     <div class="ui-container">
         <header class="ui-app-bar">
             <div class="ui-breadcrumbs">
-                <a href="index.html" class="ui-nav-link">
+                <a href="./" class="ui-nav-link">
                     <svg class="ui-btn-icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
                         <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
                     </svg>
@@ -1285,7 +1285,7 @@ def generate_specimens_inspector_html(scores: List[BenchmarkEvaluationScore], sp
 
         <footer class="ui-footer">
             <span>Virtual Test Document Inspector</span>
-            <a href="index.html" class="ui-nav-link">
+            <a href="./" class="ui-nav-link">
                 <span>Back to Benchmark Scorecard</span>
                 <svg class="ui-btn-icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
                     <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
